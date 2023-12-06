@@ -4,6 +4,9 @@
     box-sizing: border-box;
 }
 
+.duke-alert {
+    margin: 0 auto;
+  }
 .site-logo,
 .site-name {
     display: flex;
@@ -341,3 +344,26 @@
   .slick__slide video {
     width: 100%;
   }
+
+.carousel-caption h5{
+    color: white;
+    font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 2.2em;
+    line-height: 1.1;
+    text-shadow: 3px 3px 9px #000;
+    margin: 0 0 20px 0;
+}
+.carousel-caption button{
+    background-color: #00539b;
+    border-radius: 5px;
+    padding: 5px;
+    color: #fff;
+    border: none;
+    width: 400px;
+    cursor:pointer;
+    transition: .5s ease-in;
+}
+.carousel-caption button:hover{
+    background-color: #0032d3;
+
+}
